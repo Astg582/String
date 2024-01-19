@@ -4,9 +4,10 @@
 int main()
 {
 Str ob;
-ob.puch_back('A');
+ob.push_back('A');
 ob.print();
 
+std::cout << ob.empty() << std::endl;
 }
 
 

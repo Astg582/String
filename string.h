@@ -1,7 +1,7 @@
 #pragma once
 
 class Str{
-ptivate:
+private:
 	size_t m_size;
 	size_t m_cap;
 	char* m_ptr;
@@ -17,6 +17,6 @@ public:
 	bool empty();
 	void clear();
 	~Str();
-}
+};
 
 
